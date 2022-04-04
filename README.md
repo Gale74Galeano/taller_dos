@@ -1,4 +1,4 @@
 # taller_dos
-imtegrantes:
+integrantes:
 Jesus Coronel
 Sebastian Galeano
