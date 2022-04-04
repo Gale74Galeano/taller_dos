@@ -10,5 +10,5 @@ public class Baraja : MonoBehaviour
     [SerializeField]
     Card_equip[] availableEquipCards;
     [SerializeField]
-    Card_equip[] availableSkillCards;
+    Card_skill[] availableSkillCards;
 }

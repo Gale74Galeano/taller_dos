@@ -206,6 +206,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &642414034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642414035}
+  m_Layer: 0
+  m_Name: Player_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642414035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642414034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1049698622
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,5 +281,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   availableCharactersCards:
   - {fileID: 11400000, guid: e313575f2b80a834799df23dafaf7c25, type: 2}
-  availableEquipCards: []
-  availableSkillCards: []
+  - {fileID: 11400000, guid: 14cb86d3571304149bd5b72c6d3dd54e, type: 2}
+  - {fileID: 11400000, guid: 085d311aeea9ea744a1895f65180e32b, type: 2}
+  - {fileID: 11400000, guid: 3e17f3006dfb5214f804b38476d963a9, type: 2}
+  - {fileID: 11400000, guid: 495b16962871be446a1dc5bba5cf34e3, type: 2}
+  - {fileID: 11400000, guid: b3b903aa870b25241b774f61b473933c, type: 2}
+  - {fileID: 11400000, guid: c8cc1abb06f63ce4ca60df6053a6300b, type: 2}
+  - {fileID: 11400000, guid: ec29de650ebb1454db92a13b78569ab3, type: 2}
+  - {fileID: 11400000, guid: 97a815d90ba149246b7ba80cf830f5b8, type: 2}
+  - {fileID: 11400000, guid: 239f9b9f1b16a71498210b67fe61f092, type: 2}
+  availableEquipCards:
+  - {fileID: 11400000, guid: 3f348ab5fe173464cbcffb8991ccdc7d, type: 2}
+  - {fileID: 11400000, guid: ff408336656f3c04c8a2b7799aaefa52, type: 2}
+  - {fileID: 11400000, guid: ee56bd17403c34d46bc351fbe4aa9a5e, type: 2}
+  - {fileID: 11400000, guid: a1a24ca64094ddf449b8100f536551dd, type: 2}
+  - {fileID: 11400000, guid: 4f1ba8c93287bb241b1fa12ec48f1874, type: 2}
+  availableSkillCards:
+  - {fileID: 11400000, guid: 3c384ac62269e254ba79698b684097c4, type: 2}
+  - {fileID: 11400000, guid: 584bf866fa34eb74b8e4efcde54d4edf, type: 2}
+  - {fileID: 11400000, guid: 1516e68d3de9d21489dffcb21ad50b94, type: 2}
+  - {fileID: 11400000, guid: 0082ba17a84f52e4388b3dfb5ae6b4d6, type: 2}
+  - {fileID: 11400000, guid: 29d1ddca083d4bf488fdafad69ffaae4, type: 2}
+  - {fileID: 11400000, guid: f28707a449ef782419e13721e27d3841, type: 2}
+--- !u!1 &1906110509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906110510}
+  m_Layer: 0
+  m_Name: Player_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906110510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906110509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
