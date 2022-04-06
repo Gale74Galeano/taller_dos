@@ -7,7 +7,7 @@ public class Deck : MonoBehaviour
     public List<Card_char> myCharactersCards;
     public List<Card_equip> myEquipCards;
     public List<Card_skill> mySkillCards;
-
+    //
 
     public Card_char GetCharacterCardByName(string cardName)
     {
